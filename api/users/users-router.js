@@ -89,7 +89,7 @@ router.use((err, req, res, next) => {
   res.status(500).json({
     message: err.message,
     stack: err.stack,
-    custom: "NOT WORKING!!!!",
+    custom: "abort NOT WORKING KINGS AND QUEENS",
   });
 });
 
